@@ -1,0 +1,18 @@
+
+@import "react-alice-carousel/lib/alice-carousel.css";
+.carousel{
+    height: 50%;
+    display:flex;
+    align-items: center;
+    
+}
+.linkCss{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-transform: uppercase;
+     color: white;
+     /* color:#fd0b84 */
+     margin-top: 2rem;
+     text-decoration: none;
+}

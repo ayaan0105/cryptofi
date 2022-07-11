@@ -1,0 +1,9 @@
+.home{
+    background-image: url(../images/19366.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}

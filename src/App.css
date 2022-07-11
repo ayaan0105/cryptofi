@@ -1,0 +1,12 @@
+.App {
+  /* background-color: #fff; */
+  /* background-color: #f5f6fa; */
+  /* background-image:url('../public/19366.jpg'); */
+  color: white;
+  height: 100vh;
+  /* background: linear-gradient(to bottom right, #abd699, #75c9b7); */
+}
+.bck{
+  background-color: whitesmoke;
+  position: fixed;
+}

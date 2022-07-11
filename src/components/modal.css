@@ -1,0 +1,20 @@
+.modal{
+    height: 60px;
+    border-radius: 1.7rem;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, #647dee7b 0px 50px 100px -20px, #7b58b47c 0px 30px 60px -30px; */
+    /* color: rgb(78, 78, 78); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    padding: 3rem;
+    width: 60%;
+    margin: auto;
+}
+.goBack{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(49, 49, 88);
+    cursor: pointer;
+}

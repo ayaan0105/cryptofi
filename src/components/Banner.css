@@ -1,0 +1,47 @@
+.banner{
+    margin-top: 60px;
+}
+.banner_img{
+    /* background-image:url('../../public/19366.jpg'); */
+    height: 450px;
+    
+    /* display:inline-block; */
+    /* flex-direction: column; */
+    background-repeat: no-repeat;
+    /* justify-content: space-around; */
+}
+
+.head .typography{
+    font-weight: 900;
+    font-size: 8rem;
+    font-family: 'Lobster';
+    margin-right: 25rem;
+    /* text-transform: lowercase; */
+    color: rgb(42, 42, 42);
+    /* margin-left: -30rem; */
+    margin-top: 6rem;
+    
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 55%;
+    
+}
+.head .sub{
+    margin-right: 10rem;
+    margin-top: 1rem;
+}
+@media (max-width: 552px){
+    .head .typography{
+        font-size: 6rem ;
+        margin-right: 0;
+    }
+    .head .sub{
+        margin-right: 0;
+    }
+}
+

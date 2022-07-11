@@ -1,0 +1,89 @@
+.row:hover{
+    background-color: rgb(236, 248, 255);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.row{
+    /* border: 2px solid rgb(0, 0, 0); */
+    background-color: white;
+}
+.tab{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#hov:hover{
+    background-color: rgb(236, 248, 255);
+    transition: 0.5s ease;
+    /* background-color: rgb(239, 239, 239); */
+    transform: scale(1.1);
+  right: -80vw;
+  left: 45%;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.btn:link, .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 100px;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+.btn::after {
+    content:'';
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+}
+.btn-white::after {
+    background-color: #fff;
+}
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+   }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+   }
+}
+@media (max-width: 586px){
+    .head1{
+        margin-top: 5rem;
+    }
+}
